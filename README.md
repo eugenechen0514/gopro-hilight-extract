@@ -1,3 +1,6 @@
+# gopro-hilight-extract
+
+Extract HiLight tags from GoPro video files
 
 # Package usage
 
@@ -21,7 +24,7 @@ parse(filePath)
     ```bash
     npx gopro-hilight-extract GH010760.MP4
     ```
-* [xmp](https://github.com/adobe/xmp-docs/blob/master/XMPNamespaces/XMPDataTypes/Marker.md) file for working with `Adobe Prelude`. See [Work with `GoPro Quik` and `Adobe Prelude`](#Work-with-GoPro-Quik-and-adobe-prelude)
+* [xmp](https://github.com/adobe/xmp-docs/blob/master/XMPNamespaces/XMPDataTypes/Marker.md) file for working with `Adobe Prelude`. See [Work with `Adobe Prelude`](#Work-with-adobe-prelude)
     ```bash
     npx gopro-hilight-extract -t xmp GH010760.MP4
     ```
@@ -30,8 +33,10 @@ parse(filePath)
     npx gopro-hilight-extract --help
     ```
 
-# Work with `GoPro Quik` and `Adobe Prelude`
-1. Edit HiLight tags in `GoPro Quik`
-2. Extract xmp file by `npx gopro-hilight-extract -t xmp <file>`
-3. Open an `Adobe Prelude` project and then import a xmp file by the penal which is open on `Window -> Unassociated Metadata`).
-4. Apply markers to some clips
+
+# Work with `Adobe Prelude`
+1. Extract xmp file by `npx gopro-hilight-extract -t xmp <file>`
+2. Open an `Adobe Prelude` project and then import a xmp file by the penal which is open on `Window -> Unassociated Metadata`).
+3. Apply markers to some clips
+
+Note: In `GoPro Quik`, HiLight tags metadata may not save in mp4 file, so this package can not extract the HiLight tags which is created in `GoPro Quik`.
