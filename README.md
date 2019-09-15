@@ -33,5 +33,5 @@ parse(filePath)
 # Work with `GoPro Quik` and `Adobe Prelude`
 1. Edit HiLight tags in `GoPro Quik`
 2. Extract xmp file by `npx gopro-hilight-extract -t xmp <file>`
-3. Open a `Adobe Prelude` project and then import a xmp file by the penal which is open on `Window -> Unassociated Metadata`).
-4. Apply to some clips
+3. Open an `Adobe Prelude` project and then import a xmp file by the penal which is open on `Window -> Unassociated Metadata`).
+4. Apply markers to some clips
