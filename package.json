@@ -1,0 +1,20 @@
+{
+  "name": "gopro-hilight-extract",
+  "version": "0.1.0",
+  "description": "extract HiLight tags for GoPro",
+  "main": "lib/index.js",
+  "bin": {
+    "extractHilight": "cli/extractHilight.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene Chen",
+  "license": "ISC",
+  "dependencies": {
+    "bento4-installer": "^1.0.8",
+    "commander": "^3.0.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {}
+}
