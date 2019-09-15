@@ -21,7 +21,7 @@ parse(filePath)
     ```bash
     npx gopro-hilight-extract GH010760.MP4
     ```
-* [xmp](https://github.com/adobe/xmp-docs/blob/master/XMPNamespaces/XMPDataTypes/Marker.md) file for working with `Adobe Prelude` See [Work with `GoPro Quik` and `Adobe Prelude`](#Work-with-GoPro-Quik-and-adobe-prelude)
+* [xmp](https://github.com/adobe/xmp-docs/blob/master/XMPNamespaces/XMPDataTypes/Marker.md) file for working with `Adobe Prelude`. See [Work with `GoPro Quik` and `Adobe Prelude`](#Work-with-GoPro-Quik-and-adobe-prelude)
     ```bash
     npx gopro-hilight-extract -t xmp GH010760.MP4
     ```
